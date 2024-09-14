@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
   },
 
   // etherscan: {
-  //   //apiKey: "8PY7RIC355XTCBH6EANMKRDA4KYKNMMKWQ",  // для верификации
+  //   //apiKey: "",  // для верификации
   //     apiKey: {
   //       scrollSepolia: 'abc',
   //     },
