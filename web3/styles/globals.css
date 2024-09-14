@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151326;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(
+    270deg,
+    hsl(295deg 76% 51%) 0%,
+    hsl(284, 75%, 67%) 26%,
+    hsl(257, 30%, 59%) 39%,
+    hsl(293, 76%, 18%) 50%,
+    hsl(311, 77%, 81%) 61%,
+    hsl(310, 73%, 70%) 74%,
+    hsl(316, 41%, 26%) 100%
+  );
+  filter: blur(125px);
+}
+
+.feedback-gradient {
+  position: absolute;
+  width: 200px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+
+  background: #8d39a3;
+  filter: blur(175px);
+}
+
+.navbar-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
+}
